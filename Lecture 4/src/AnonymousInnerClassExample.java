@@ -12,10 +12,8 @@ public class AnonymousInnerClassExample {
 			public int performOperation(int a, int b) {
 				return a + b;
 			}
-		};
-		
+		};	
 		int result =  addition.performOperation(5,93);
 		System.out.println(result);
-	}
-	
+	}	
 }

@@ -15,9 +15,8 @@ public class EmployeeHasA {
 	
 	public static void main(String[] args) {
 		AddressHasA address = new AddressHasA("B-105","B-2",411021);
-		EmployeeHasA employee = new EmployeeHasA(120, "Mihir", address)
-				
-		
+		EmployeeHasA employee = new EmployeeHasA(120, "Mihir", address);
+																		
 	}
 		
 }
