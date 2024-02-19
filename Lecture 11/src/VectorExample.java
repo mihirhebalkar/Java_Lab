@@ -11,6 +11,7 @@ public class VectorExample {
 		intVector.add(4);
 		
 		intVector.remove(2);
+		
 		System.out.println("\nPrinting Vector elements : ");
 		for (int i : intVector) {
 			System.out.println(i);
