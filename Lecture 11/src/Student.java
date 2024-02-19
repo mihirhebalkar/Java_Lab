@@ -20,6 +20,11 @@ public class Student {
 		}
 	}
 	
+	public void addStudents(Student s, ArrayList<Student> listOfStudents) {
+		listOfStudents.add(s);
+	}
+	
+	
 		
 	public static void main(String[] args) {
 		ArrayList<Student> listOfStudents = new ArrayList<>();
@@ -31,6 +36,8 @@ public class Student {
 		listOfStudents.add(s1);
 		listOfStudents.add(s2);
 		listOfStudents.add(s3);
+		
+		
 		
 		s1.displayStudents(listOfStudents);
 
