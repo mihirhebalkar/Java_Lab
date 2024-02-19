@@ -1,4 +1,4 @@
-
+		
 public class BankAccount {
 	
 	private int accountNumber;
@@ -6,9 +6,7 @@ public class BankAccount {
 	private float balance;
 	
 	private static int totalAccounts;
-	
-	
-	
+		
 	public int getAccountNumber() {
 		return accountNumber;
 	}
@@ -94,11 +92,5 @@ public class BankAccount {
 		hebalkar.printDetails(hebalkar.balance, hebalkar.name, hebalkar.accountNumber);
 		
 		System.out.println("\nNumber of accounts : " + totalAccounts);
-		
-		
-		
-		
 	}
 }
-
-
