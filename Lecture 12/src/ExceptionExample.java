@@ -19,9 +19,11 @@ public class ExceptionExample {
 		} catch (ArrayIndexOutOfBoundsException e) { // or catch(Exception e)
 			System.out.println(e);
 			System.out.println("Exception Occurred!");
+		} finally {  
+			System.out.println("\nFinally block");
 		}
 		
-		System.out.println("Output : ");
+		System.out.println("\nOutput : ");
 		System.out.println(arrayA[1]);
 		System.out.println(arrayA[0]);
 		
