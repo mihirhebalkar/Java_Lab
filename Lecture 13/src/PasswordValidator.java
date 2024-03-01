@@ -11,7 +11,7 @@ public class PasswordValidator {
 			checkPasswordStrength(password);
 			
 		} catch (LengthViolationException e){
-			e.printStackTr>ace();
+			e.printStackTrace();
 		} catch (WeakPasswordException e) {
 			e.printStackTrace();
 		}
