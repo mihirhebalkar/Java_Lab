@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class InvalidAgeExceptionHandler {
 	
-	
 	public static void main(String[] args) {
 		System.out.print("Enter your age : ");
 		Scanner sc = new Scanner(System.in);
@@ -23,5 +22,5 @@ public class InvalidAgeExceptionHandler {
 		} else {
 			System.out.println("Welcome!");
 		}
-	}
+	}	
 }
