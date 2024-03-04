@@ -7,7 +7,6 @@ public class TemperatureConverter {
 	public float convertToF(String temp) {
 		float celsius = Float.parseFloat(temp);
 		float fahrenheit = (9 * celsius)/5 + 32;
-
 		return fahrenheit;
 	}
 	
