@@ -4,7 +4,7 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		System.out.print("Enter your string : ");
 		String s = sc.nextLine();
 		
 		String rs ="";
@@ -15,6 +15,4 @@ public class ReverseString {
 		System.out.println("Reversed String : " + rs);
 		
 	}
-
-	
 }
