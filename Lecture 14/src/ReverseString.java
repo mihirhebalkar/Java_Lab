@@ -12,7 +12,9 @@ public class ReverseString {
         for (int i = s.length() - 1; i >= 0; i--) {
             rs += s.charAt(i);
         }
-
-        System.out.println("Reversed String: " + rs);
+        
+        rs = rs.substring(0,1).toUpperCase() + rs.substring(1);
+        
+        System.out.println("Reversed String plus first Letter capital : " + rs);
     }
 }
