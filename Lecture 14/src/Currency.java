@@ -8,8 +8,5 @@ public class Currency {
 		int n1 = sc.nextInt();
 		
 		StringBuffer s1 = new StringBuffer();
-		
-		
-		
 	}
 }
