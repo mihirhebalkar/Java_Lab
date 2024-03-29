@@ -47,7 +47,7 @@ public class TemperatureConverter {
 	    } catch (NumberFormatException e) {
 	        throw new InvalidTemperatureException("Please enter a valid float value!");
 	    }
-
+	    
 	    if (!Float.isFinite(value)) {
 	        throw new InvalidTemperatureException("Please enter a valid finite float value!");
 	    } else {
